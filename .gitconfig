@@ -1,0 +1,7 @@
+[init]
+	defaultBranch = main
+[user]
+	name = sech1p
+	email = sech1p@disroot.org
+[credential]
+	helper = store
