@@ -19,7 +19,7 @@ Dotfiles of my setups
 ## 🖥️ Specification
 
 * **Motherboard** - MSI H310M PRO-VD PLUS
-* **Processor** - Intel Celeron G4930
+* **Processor** - Intel i5-9400
 * **Graphics** - MSI GeForce GTX 1050 Ti GAMING
 * **Memory** - 1x8 GB GoodRam DDR4
 * **Hard drive (SSD)** - Crucial BX500
