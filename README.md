@@ -15,3 +15,19 @@ Dotfiles of my setups
 * **Text Editor** - [Kakoune](https://kakoune.org)
 * **Process Viewer** - [btop](https://github.com/aristocratos/btop)
 * **System Fetch** - [catnap](https://catnap-fetch.xyz)
+
+## 🖥️ Specification
+
+* **Motherboard** - MSI H310M PRO-VD PLUS
+* **Processor** - Intel Celeron G4930
+* **Graphics** - MSI GeForce GTX 1050 Ti GAMING
+* **Memory** - 1x8 GB GoodRam DDR4
+* **Hard drive (SSD)** - Crucial BX500
+* **Hard drive (HDD)** - Toshiba MQ01ABD100
+* **Display** - Samsung S24D300
+* **Display** - LG Flatron L1753TR
+* **Keyboard** - Magegee 60% (red switches)
+* **Mouse** - GX Trust
+* **Tablet** - Wacom Bamboo MTE-450A
+* **Operating system** - Arch Linux
+* **Kernel** - Linux 6.10.2-arch1-1
