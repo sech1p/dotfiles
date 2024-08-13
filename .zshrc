@@ -1,5 +1,7 @@
 source /home/sech1p/.antigen.zsh
 
+export EDITOR="kak"
+
 antigen use oh-my-zsh
 
 antigen bundle command-not-found
@@ -9,6 +11,7 @@ antigen bundle zsh-users/zsh-syntax-highlighting
 
 antigen theme agnoster 
 
+alias e="$EDITOR"
 alias vim="kak"
 alias cat="bat"
 alias htop="btop"
@@ -20,8 +23,6 @@ mkd() {
     mkdir $1
     cd $_
 }
-
-export EDITOR="kak"
 
 export PATH="/home/sech1p/.code/bin:$PATH"
 
