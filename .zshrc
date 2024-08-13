@@ -21,6 +21,8 @@ mkd() {
     cd $_
 }
 
+export EDITOR="kak"
+
 export PATH="/home/sech1p/.code/bin:$PATH"
 
 antigen apply
