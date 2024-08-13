@@ -13,6 +13,7 @@ alias vim="kak"
 alias cat="bat"
 alias htop="btop"
 alias ls="eza"
+alias catnap="clear && catnap"
 alias neofetch="catnap"
 
 mkd() {
