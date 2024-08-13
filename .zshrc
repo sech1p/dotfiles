@@ -24,7 +24,7 @@ mkd() {
     cd $_
 }
 
-export PATH="/home/sech1p/.code/bin:$PATH"
+export PATH="/home/sech1p/.code/bin:/home/sech1p/.local/bin:$PATH"
 
 antigen apply
 
