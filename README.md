@@ -31,7 +31,3 @@ Dotfiles of my setups
 * **Tablet** - Wacom Bamboo MTE-450A
 * **Operating system** - Arch Linux
 * **Kernel** - Linux 6.10.2-arch1-1
-
-## 🐛 Bugs
-
-* `catnap` references to Processor still as Celeron G4930 instead of i5-9400 even after recompiling
