@@ -8,6 +8,18 @@ Dotfiles of my setups
 
 </p>
 
+## 💾 Installation
+
+Before using my dotfiles maybe you want to use `bootstrap.sh` file to pre-install some stuff
+
+Go to your terminal and type
+
+```sh
+$ ./bootstrap.sh
+```
+
+After bootstraping copy all dotfiles to your `$HOME` folder
+
 ## 📦 Used programs
 
 * **cat(1)** - [bat](https://github.com/sharkdp/bat)
