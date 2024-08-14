@@ -1,0 +1,14 @@
+#!/bin/bash
+
+CPU_USAGE=$(top -b -n 1 | grep Cpu | awk '{print $2}')
+CPU_TEMP=$(sensors | grep "Core 0" | awk '{ print $3 }')
+
+GPU_USAGE=$(nvidia-smi --query-gpu=utilization.gpu --format=csv,noheader)
+GPU_TEMP=$(nvidia-smi --query-gpu=temperature.gpu --format=csv,noheader)
+
+RAM_USAGE=$(free -h | grep Mem | awk '{ print $3 }')
+RAM_TOTAL=$(free -h | grep Mem | awk '{ print $2 }')
+
+echo "⚛ CPU: $CPU_USAGE % ($CPU_TEMP)"
+echo "🖥️ GPU: $GPU_USAGE (+$GPU_TEMP°C)"
+echo "⚙️ RAM: $RAM_USAGE/$RAM_TOTAL"

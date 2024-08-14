@@ -26,6 +26,8 @@ mkd() {
 
 export PATH="/home/sech1p/.code/bin:/home/sech1p/.local/bin:$PATH"
 
+source .local/bin/u
+
 antigen apply
 
 export PATH=$PATH:/home/sech1p/.spicetify
