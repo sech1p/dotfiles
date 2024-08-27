@@ -26,7 +26,7 @@ mkd() {
 
 export PATH="/home/sech1p/.code/bin:/home/sech1p/.local/bin:$PATH"
 
-source .local/bin/u
+source /home/sech1p/.local/bin/u
 
 antigen apply
 
