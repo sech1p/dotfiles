@@ -36,6 +36,7 @@ After bootstraping copy all dotfiles to your `$HOME` folder
 * **Memory** - 1x8 GB GoodRam DDR4
 * **Hard drive (SSD)** - Crucial BX500
 * **Hard drive (HDD)** - Toshiba MQ01ABD100
+* **Hard drive (HDD)** - Seagate ST500LM021-1KJ152
 * **Display** - DELL E2214H
 * **Display** - Samsung S24D300
 * **Display** - LG Flatron L1753TR
