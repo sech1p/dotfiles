@@ -30,8 +30,8 @@ After bootstraping copy all dotfiles to your `$HOME` folder
 
 ## 🖥️ Specification
 
-* **Motherboard** - MSI H310M PRO-VD PLUS
-* **Processor** - Intel i5-9400
+* **Motherboard** - ASRock H310CM-DVS
+* **Processor** - Intel Celeron G4930
 * **Graphics** - MSI GeForce GTX 1050 Ti GAMING
 * **Memory** - 1x8 GB GoodRam DDR4
 * **Hard drive (SSD)** - Crucial BX500
