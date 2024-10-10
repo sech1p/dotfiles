@@ -30,4 +30,4 @@ source /home/sech1p/.local/bin/u
 
 antigen apply
 
-export PATH=$PATH:/home/sech1p/.spicetify
+export PATH=$PATH:/home/sech1p/.npm-global/bin:/home/sech1p/.spicetify
