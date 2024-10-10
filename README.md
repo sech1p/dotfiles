@@ -44,4 +44,4 @@ After bootstraping copy all dotfiles to your `$HOME` folder
 * **Mouse** - GX Trust
 * **Tablet** - Wacom Bamboo MTE-450A
 * **Operating system** - Arch Linux
-* **Kernel** - Linux 6.10.2-arch1-1
+* **Kernel** - Linux 6.11.2-arch1-1
