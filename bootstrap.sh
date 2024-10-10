@@ -12,6 +12,10 @@ if ! command -v cargo &> /dev/null; then
     echo "cargo is not installed. Please install cargo and try again." > /dev/stderr
     exit 1
 fi
+if ! command -v npm &> /dev/null; then
+    echo "npm is not installed. Please install npm and try again." > /dev/stderr
+    exit 1
+fi
 if ! command -v code &> /dev/null; then
     echo "Visual Studio Code is not installed. Please install Visual Studio Code and try again." > /dev/stderr
     exit 1
@@ -53,6 +57,8 @@ if ! command -v catnap &> /dev/null; then
     echo "catnap is not installed" > /dev/stderr
     echo "you can install it from https://catnap-fetch.xyz" > /dev/stderr
 fi
+
+npm config set prefix "~/.npm-global"
 
 echo "Bootstrap finished successfully"
 exit 0
