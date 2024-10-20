@@ -56,3 +56,4 @@ You no more need to manually copy dotfiles to repository on update. (repository 
 * **Tablet** - Wacom Bamboo MTE-450A
 * **Operating system** - Arch Linux
 * **Kernel** - Linux 6.11.2-arch1-1
+* **Desktop environment** - KDE 6.2
