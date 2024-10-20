@@ -1,5 +1,15 @@
 #!/bin/sh
 
+if [ "$1" == "dotfiles_update_monitor" ]; then
+    cp .dotfiles_update_monitor.sh $HOME/.dotfiles_update_monitor.sh
+    sudo cp etc/systemd/system/dotfiles_update_monitor.service /etc/systemd/system/dotfiles_update_monitor.service
+    sudo systemctl daemon-reload
+    sudo systemctl enable dotfiles_update_monitor.service
+    sudo systemctl start dotfiles_update_monitor.service
+    echo "dotfiles update monitor has been installed and started successfully! Don't forget to have repository with dotfiles in $HOME/Development/dotfiles"
+    exit 0
+fi
+
 if ! command -v zsh &> /dev/null; then
     echo "zsh is not installed. Please install zsh and try again." > /dev/stderr
     exit 1

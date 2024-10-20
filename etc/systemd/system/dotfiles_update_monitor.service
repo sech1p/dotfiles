@@ -1,0 +1,10 @@
+[Unit]
+Description=Monitor dotfiles and copy them on change
+
+[Service]
+ExecStart=/home/sech1p/.dotfiles_update_monitor.sh
+Restart=always
+User=sech1p
+
+[Install]
+WantedBy=default.target
