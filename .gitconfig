@@ -10,3 +10,4 @@
 	st = status -sb # displays less-detailed branch status in a pretty way
 	last = log -1 HEAD --stat # displays last commit details
 	remoteall = remote -v # displays all remotes in repository
+	aliases = config --get-regexp ^alias # displays all aliases defined by me
