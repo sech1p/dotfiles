@@ -14,6 +14,7 @@ antigen theme agnoster
 alias e="$EDITOR"
 alias vim="kak"
 alias cat="bat"
+alias find="fd"
 alias htop="btop"
 alias ls="eza"
 alias catnap="clear && catnap"

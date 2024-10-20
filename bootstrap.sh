@@ -50,6 +50,11 @@ if ! command -v eza &> /dev/null; then
     cargo install eza
 fi
 
+if ! command -v fd &> /dev/null; then
+    echo "fd is not installed" > /dev/stderr
+    echo "you can install it from https://github.com/sharkdp/fd" > /dev/stderr
+fi
+
 # Check if Kakoune is present
 if ! command -v kak &> /dev/null; then
     echo "kak is not installed" > /dev/stderr
