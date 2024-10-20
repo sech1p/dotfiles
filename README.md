@@ -36,6 +36,7 @@ You no more need to manually copy dotfiles to repository on update. (repository 
 * **cat(1)** - [bat](https://github.com/sharkdp/bat)
 * **ls(1)** - [eza](https://eza.rocks)
 * **find(1)** - [fd](https://github.com/sharkdp/fd)
+* **dig(1)** - [doggo](https://github.com/mr-karan/doggo)
 * **Text Editor** - [Kakoune](https://kakoune.org)
 * **Process Viewer** - [btop](https://github.com/aristocratos/btop)
 * **System Fetch** - [catnap](https://catnap-fetch.xyz)

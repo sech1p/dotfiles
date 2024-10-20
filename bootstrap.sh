@@ -55,6 +55,12 @@ if ! command -v fd &> /dev/null; then
     echo "you can install it from https://github.com/sharkdp/fd" > /dev/stderr
 fi
 
+if ! command -v doggo &> /dev/null; then
+    echo "doggo is not installed" > /dev/stderr
+    echo "installing doggo..."
+    curl -sS https://raw.githubusercontent.com/mr-karan/doggo/main/install.sh | sh
+fi
+
 # Check if Kakoune is present
 if ! command -v kak &> /dev/null; then
     echo "kak is not installed" > /dev/stderr
