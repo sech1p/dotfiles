@@ -5,3 +5,5 @@
 	email = sech1p@disroot.org
 [credential]
 	helper = store
+[alias]
+	tree = log --graph --decorate --pretty=oneline --abbrev-commit
