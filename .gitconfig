@@ -6,7 +6,7 @@
 [credential]
 	helper = store
 [alias]
-	tree = log --graph --decorate --pretty=oneline --abbrev-commit
-	st = status -sb
-	last = log -1 HEAD --stat
-	remoteall = remote -v
+	tree = log --graph --decorate --pretty=oneline --abbrev-commit # displays tree of commits in a pretty way
+	st = status -sb # displays less-detailed branch status in a pretty way
+	last = log -1 HEAD --stat # displays last commit details
+	remoteall = remote -v # displays all remotes in repository
