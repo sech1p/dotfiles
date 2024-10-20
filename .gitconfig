@@ -7,3 +7,4 @@
 	helper = store
 [alias]
 	tree = log --graph --decorate --pretty=oneline --abbrev-commit
+	st = status -sb
