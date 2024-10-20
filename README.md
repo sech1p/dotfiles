@@ -42,18 +42,18 @@ You no more need to manually copy dotfiles to repository on update. (repository 
 ## 🖥️ Specification
 
 * **Motherboard** - ASRock H310CM-DVS
-* **Processor** - Intel Celeron G4930
-* **Graphics** - MSI GeForce GTX 1050 Ti GAMING
+* **Processor** - Intel Celeron G4930 (3.20 GHz)
+* **Graphics** - MSI GeForce GTX 1050 Ti GAMING (4 GB)
 * **Memory** - 1x8 GB GoodRam DDR4
-* **Hard drive (SSD)** - Crucial BX500
-* **Hard drive (HDD)** - Toshiba MQ01ABD100
-* **Hard drive (HDD)** - Seagate ST500LM021-1KJ152
-* **Display** - DELL E2214H
-* **Display** - Samsung S24D300
-* **Display** - LG Flatron L1753TR
+* **Hard drive (SSD)** - Crucial BX500 (240 GB)
+* **Hard drive (HDD)** - Toshiba MQ01ABD100 (1 TB)
+* **Hard drive (HDD)** - Seagate ST500LM021-1KJ152 (500 GB)
+* **Display** - DELL E2214H (1920x1080@60, 21.5 inches)
+* **Display** - Samsung S24D300 (1920x1080@60, 24 inches)
+* **Display** - LG Flatron L1753TR (1280x1024@60, 17 inches)
 * **Keyboard** - Magegee 60% (red switches)
 * **Mouse** - GX Trust
-* **Tablet** - Wacom Bamboo MTE-450A
+* **Tablet** - Wacom Bamboo MTE-450A (area: 5.8" x 3.7")
 * **Operating system** - Arch Linux
 * **Kernel** - Linux 6.11.2-arch1-1
 * **Desktop environment** - KDE 6.2
