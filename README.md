@@ -58,4 +58,4 @@ You no more need to manually copy dotfiles to repository on update. (repository 
 * **Tablet** - [Wacom Bamboo MTE-450A](https://www.newegg.com/wacom-mte450/p/N82E16823100045) (area: 5.8" x 3.7")
 * **Operating system** - [Arch Linux](https://archlinux.org/)
 * **Kernel** - [Linux](https://www.kernel.org) [6.11.2](https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.11.2)-arch1-1
-* **Desktop environment** - [KDE](https://kde.org) [6.2](https://kde.org/announcements/plasma/6/6.2.0)
+* **Desktop environment** - [KDE](https://kde.org) [6.2](https://kde.org/announcements/plasma/6/6.2.0) ([X11](https://www.x.org))
