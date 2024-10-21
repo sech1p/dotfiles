@@ -60,3 +60,13 @@ You no more need to manually copy dotfiles to repository on update. (repository 
 * **Operating system** - [Arch Linux](https://archlinux.org/)
 * **Kernel** - [Linux](https://www.kernel.org) [6.11.2](https://cdn.kernel.org/pub/linux/kernel/v6.x/ChangeLog-6.11.2)-arch1-1
 * **Desktop environment** - [KDE](https://kde.org) [6.2](https://kde.org/announcements/plasma/6/6.2.0) ([X11](https://www.x.org))
+
+## ❓ FAQ
+
+* You have three monitors, are you okay with multiple screens with the GTX 1050 Ti and NVidia's proprietary drivers?
+
+Umm, sometimes there is a bug related to the desktop on the middle monitor (Samsung S24D300) having a black square on the middle.
+
+My temporary workaround is to disconnect the HDMI cable from the graphics card for a moment, wait a moment until the desktop with bars moves to the left monitor, then connect the HDMI cable back to the graphics card.
+
+After that, the desktop returns to normal.
