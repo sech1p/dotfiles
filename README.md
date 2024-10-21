@@ -78,3 +78,9 @@ Not anymore, before the update I could see problems about Plasma Shell crashing,
 After a bigger update which was caused by not using the computer for a week (as it turned out, also update of KDE to version 6.2) made these problems disappear.
 
 For Linux haters/opponents: Give it a chance, KDE 6 is (as of October 2024) fresh and only a few months old.
+
+* Are you planning to distrohopping/change desktop environment?
+
+Not for now, I feel good with Arch right now.
+
+For now I'm giving KDE 6 a chance as it's a fresh version of KDE, when I use Linux a bit more I'm thinking about changing the environment to [Hyprland](https://hyprland.org).
