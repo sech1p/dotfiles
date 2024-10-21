@@ -70,3 +70,11 @@ Umm, sometimes there is a bug related to the desktop on the middle monitor (Sams
 My temporary workaround is to disconnect the HDMI cable from the graphics card for a moment, wait a moment until the desktop with bars moves to the left monitor, then connect the HDMI cable back to the graphics card.
 
 After that, the desktop returns to normal.
+
+* Is KDE 6 still buggy?
+
+Not anymore, before the update I could see problems about Plasma Shell crashing, and Plasma could run not very stably (menu bars hanging, and Plasma having problems even trying to restart it).
+
+After a bigger update which was caused by not using the computer for a week (as it turned out, also update of KDE to version 6.2) made these problems disappear.
+
+For Linux haters/opponents: Give it a chance, KDE 6 is (as of October 2024) fresh and only a few months old.
