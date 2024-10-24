@@ -54,7 +54,7 @@ You no more need to manually copy dotfiles to repository on update. (repository 
 * **Display** - [DELL E2214H](https://www.dell.com/support/home/pl-pl/product-support/product/dell-e2214h/docs) (1920x1080@60, 21.5 inches)
 * **Display** - [Samsung S24D300](https://www.ebay.com/sch/i.html?_nkw=samsung+s24d300) (1920x1080@60, 24 inches)
 * **Display** - [LG Flatron L1753TR](https://www.ebay.com/sch/i.html?_nkw=lg+flatron+1280x1024) (1280x1024@60, 17 inches)
-* **Keyboard** - [Magegee 60%](https://www.amazon.com/dp/B09KLGRBCH) (red switches)
+* **Keyboard** - [Epson Q203A](https://deskthority.net/wiki/Epson_Q203A) (Fujitsu Peerless Type 2 switches)
 * **Mouse** - [GX Trust](https://www.trust.com/en/product/25037-gxt-110-felox-wireless-gaming-mouse-black)
 * **Tablet** - [Wacom Bamboo MTE-450A](https://www.newegg.com/wacom-mte450/p/N82E16823100045) (area: 5.8" x 3.7")
 * **Operating system** - [Arch Linux](https://archlinux.org/)
