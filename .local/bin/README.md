@@ -7,3 +7,4 @@ This directory provides scripts written by me, which sometimes helps me in my da
 - [🎵 bpm](bpm) - Calculates BPM (Beats per Minute) aka music tempo from provided audio file
 - [🌐 http](http) - Returns what provided HTTP code means
 - [💻 u](u) - Returns perctange usage/temperatures for Processor and Graphic card, and usage of/total RAM memory
+- [📦 total_uncompressed_zip_size](total_uncompressed_zip_size) - Returns total uncompressed size of all .zip's files in selected catalog
