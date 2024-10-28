@@ -41,6 +41,10 @@ You no more need to manually copy dotfiles to repository on update. (repository 
 * **Process Viewer** - [btop](https://github.com/aristocratos/btop)
 * **System Fetch** - [catnap](https://catnap-fetch.xyz)
 
+## 💻 Scripts
+
+All my scripts (which sometimes helps me on my daily work) with their proper description and usage of them, are located in [.local/bin](.local/bin/) directory.
+
 ## 🖥️ Specification
 
 * **Motherboard** - [ASRock H310CM-DVS](https://www.asrock.com/mb/Intel/H310CM-DVS/index.asp)
