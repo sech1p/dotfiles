@@ -1,0 +1,24 @@
+#!/usr/bin/env python
+
+# bpm - simple script to obtain BPM (Beats per Minute) from audio file
+#
+# Usage:
+#     $ bpm <audio_file> # ex. bpm MyFancyMusic.mp3
+#     BPM of MyFancyMusic.mp3: [95.703125]
+#
+
+import sys
+import librosa
+
+def main(args: list[str]) -> None:
+    if len(args) <= 1:
+        print(f"Usage: {args[0]} <audio_file>", file=sys.stderr)
+        exit(1)
+
+    y, sr = librosa.load(args[1])
+    tempo, _ = librosa.beat.beat_track(y=y, sr=sr)
+
+    print(f"BPM of {args[1]}: {tempo}")
+
+if __name__ == "__main__":
+    main(sys.argv)
