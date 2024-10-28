@@ -1,5 +1,15 @@
 #!/bin/bash
 
+# u - simple script to display Processor and Graphic card usage and temperature
+#     and amount of used and total RAM memory
+#
+# Usage:
+#     $ u
+#     ⚛ CPU: 26.1 % (+38.0°C)
+#     🖥 GPU: 4 % (+59°C)
+#     ⚙ RAM: 5.5Gi/7.7Gi
+#
+
 CPU_USAGE=$(top -b -n 1 | grep Cpu | awk '{print $2}')
 CPU_TEMP=$(sensors | grep "Core 0" | awk '{ print $3 }')
 
