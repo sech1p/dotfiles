@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# flac_to_ipod - simple script to convert FLAC audio file into a format that my iPod recognizes (ALAC)
+#
+# Usage:
+#     $ flac_to_ipod <audio_file> # ex. flac_to_ipod MyFancyMusic.flac
+#
+
+audio_file="$1"
+audio_output="${audio_file%%.*}.m4a"
+
+if [ $# -eq 0 ]; then
+    echo "usage: flac_to_ipod <audio_file>" > /dev/stderr
+    exit 1
+fi
+
+ffmpeg -i "$audio_file" -acodec alac "$audio_output"
