@@ -26,7 +26,8 @@ mkd() {
     cd $_
 }
 
-export PATH="/home/sech1p/.code/bin:/home/sech1p/.local/bin:$PATH"
+export PSPDEV="/home/sech1p/pspdev"
+export PATH="/home/sech1p/.code/bin:/home/sech1p/.local/bin:$PSPDEV:$PSPDEV/bin:$PATH"
 
 source /home/sech1p/.local/bin/u
 
