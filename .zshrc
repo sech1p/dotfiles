@@ -27,7 +27,12 @@ mkd() {
 }
 
 export PSPDEV="/home/sech1p/pspdev"
-export PATH="/home/sech1p/.code/bin:/home/sech1p/.local/bin:$PSPDEV:$PSPDEV/bin:$PATH"
+
+export PS2DEV="/home/sech1/ps2dev"
+export PS2SDK="$PS2DEV/ps2sdk"
+export GSKIT="$PS2DEV/gsKit"
+
+export PATH="/home/sech1p/.code/bin:/home/sech1p/.local/bin:$PSPDEV:$PSPDEV/bin:$PS2DEV:$PS2DEV/bin:$PS2DEV/ee/bin:$PS2DEV/iop/bin:$PS2DEV/dvp/bin:$PS2SDK/bin:$PATH"
 
 source /home/sech1p/.local/bin/u
 
