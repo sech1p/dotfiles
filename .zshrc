@@ -28,7 +28,7 @@ mkd() {
 
 export PSPDEV="/home/sech1p/pspdev"
 
-export PS2DEV="/home/sech1/ps2dev"
+export PS2DEV="/home/sech1p/ps2dev"
 export PS2SDK="$PS2DEV/ps2sdk"
 export GSKIT="$PS2DEV/gsKit"
 
