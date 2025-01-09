@@ -89,19 +89,13 @@ All my scripts (which sometimes helps me on my daily work) with their proper des
 
 * You have three monitors, are you okay with multiple screens with the GTX 1050 Ti and NVidia's proprietary drivers?
 
-Umm, sometimes there is a bug related to the desktop on the middle monitor (Samsung S24D300) having a black square on the middle.
-
-My temporary workaround is to disconnect the HDMI cable from the graphics card for a moment, wait a moment until the desktop with bars moves to the left monitor, then connect the HDMI cable back to the graphics card.
-
-After that, the desktop returns to normal.
+Yes, it's working decent. Sometimes I got minor bugs but they are not annoying much.
 
 * Is KDE 6 still buggy?
 
-Not anymore, before the update I could see problems about Plasma Shell crashing, and Plasma could run not very stably (menu bars hanging, and Plasma having problems even trying to restart it).
+Last time it's less buggy than earlier. KDE developers fixed many issues, it's pretty usable.
 
-After a bigger update which was caused by not using the computer for a week (as it turned out, also update of KDE to version 6.2) made these problems disappear.
-
-For Linux haters/opponents: Give it a chance, KDE 6 is (as of October 2024) fresh and only a few months old.
+BTW: KDE 6 is (as of January 2025) fresh and only a few months old.
 
 * Are you planning to distrohopping/change desktop environment?
 
