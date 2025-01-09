@@ -32,6 +32,10 @@ export PS2DEV="/home/sech1p/ps2dev"
 export PS2SDK="$PS2DEV/ps2sdk"
 export GSKIT="$PS2DEV/gsKit"
 
+export DEVKITPRO="/opt/devkitpro"
+export DEVKITARM="$DEVKITPRO/devkitARM"
+export DEVKITPPC="$DEVKITPRO/devkitPPC"
+
 export PATH="/home/sech1p/.code/bin:/home/sech1p/.local/bin:$PSPDEV:$PSPDEV/bin:$PS2DEV:$PS2DEV/bin:$PS2DEV/ee/bin:$PS2DEV/iop/bin:$PS2DEV/dvp/bin:$PS2SDK/bin:$PATH"
 
 source /home/sech1p/.local/bin/u
