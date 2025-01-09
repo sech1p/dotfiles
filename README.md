@@ -41,6 +41,20 @@ You no more need to manually copy dotfiles to repository on update. (repository 
 * **Process Viewer** - [btop](https://github.com/aristocratos/btop)
 * **System Fetch** - [catnap](https://catnap-fetch.xyz)
 
+## 📦 Additional content
+
+My dotfiles (state as of beginning of January 2025) use some toolchains, primary for developing homebrews for Sony (PSP and PS2) and Nintendo (devkitPro) consoles.
+
+To use all of them, you must have [pspdev](https://github.com/pspdev/pspdev) (PSP toolchain), [ps2dev](https://github.com/ps2dev/ps2dev) (PS2 toolchain) and devkitPro (Toolchain for various Nintendo consoles) installed.
+
+While devkitPro provides prebuilt binaries, which you can install by [following these steps](https://devkitpro.org/wiki/Getting_Started), you must manual build PlayStation's toolchains.
+
+Clone `pspdev` and `ps2dev` repositories from links provided above to your home directory, and type command `./build-all.sh` in your terminal for both of them. That's it!
+
+To be precious, additionally I installed extra packages from these toolchains by command `./build-extra.sh` after building all. It provides some additional tools.
+
+Why I need many toolchains? I don't know. I just wanted to make some experiments with my own homebrews. Actually I have plans to release homebrew for PSP. For rest consoles (like PS2, GBA, Wii) I will do some homebrews in nearly future, as I have some ideas in my brain.
+
 ## 💻 Scripts
 
 All my scripts (which sometimes helps me on my daily work) with their proper description and usage of them, are located in [.local/bin](.local/bin/) directory.
