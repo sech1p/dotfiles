@@ -8,6 +8,12 @@ Dotfiles of my setups
 
 </p>
 
+## ⚠️ Notice
+
+File `.zshrc` references to my `$HOME` directory (as absolute paths). Before you starting using my dotfiles, change all reference of my username (sech1p) to name of your username in your environment.
+
+I plan to change this absolute paths as soon as possible. Sorry for inconveniences!
+
 ## 💾 Installation
 
 Before using my dotfiles maybe you want to use `bootstrap.sh` file to pre-install some stuff
