@@ -36,7 +36,11 @@ export DEVKITPRO="/opt/devkitpro"
 export DEVKITARM="$DEVKITPRO/devkitARM"
 export DEVKITPPC="$DEVKITPRO/devkitPPC"
 
+export MARS_INSTALL_DIR="/opt/toolchains/mars"
+
 export PATH="/home/sech1p/.code/bin:/home/sech1p/.local/bin:$PSPDEV:$PSPDEV/bin:$PS2DEV:$PS2DEV/bin:$PS2DEV/ee/bin:$PS2DEV/iop/bin:$PS2DEV/dvp/bin:$PS2SDK/bin:$PATH"
+
+source $MARS_INSTALL_DIR/mars.sh
 
 source /home/sech1p/.local/bin/u
 
