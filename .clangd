@@ -16,3 +16,4 @@ CompileFlags:
         - "-I/opt/devkitpro/libtonc/include"
         - "-I/opt/devkitpro/wut/include"
         - "-I/opt/devkitpro/portlibs/wii/include"
+        - "-I/opt/toolchains/mars/m68k-elf/inc"
