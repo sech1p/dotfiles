@@ -62,15 +62,29 @@ You no more need to manually copy dotfiles to repository on update. (repository 
 
 My dotfiles (state as of beginning of January 2025) use some toolchains, primary for developing homebrews for Sony (PSP and PS2) and Nintendo (devkitPro) consoles.
 
-To use all of them, you must have [pspdev](https://github.com/pspdev/pspdev) (PSP toolchain), [ps2dev](https://github.com/ps2dev/ps2dev) (PS2 toolchain) and devkitPro (Toolchain for various Nintendo consoles) installed.
+To use all of them, you must have [pspdev](https://github.com/pspdev/pspdev) (PSP toolchain), [ps2dev](https://github.com/ps2dev/ps2dev) (PS2 toolchain), devkitPro (Toolchain for various Nintendo consoles) and [marsdev](https://github.com/andwn/marsdev) (Toolchain for SEGA Mega Drive/Genesis) installed.
 
-While devkitPro provides prebuilt binaries, which you can install by [following these steps](https://devkitpro.org/wiki/Getting_Started), you must manual build PlayStation's toolchains.
+While devkitPro provides prebuilt binaries, which you can install by [following these steps](https://devkitpro.org/wiki/Getting_Started), you must manual build PlayStation's and SEGA toolchains.
 
-Clone `pspdev` and `ps2dev` repositories from links provided above to your home directory, and type command `./build-all.sh` in your terminal for both of them. That's it!
+Clone `pspdev` and `ps2dev` repositories from links provided above to your home directory, and type command `./build-all.sh` in your terminal for both of them. Then clone `marsdev`, and type below commands in it directory:
 
-To be precious, additionally I installed extra packages from these toolchains by command `./build-extra.sh` after building all. It provides some additional tools.
+```bash
+$ export MARS_BUILD_DIR="(repository_directory)/mars" # Where (repository_directory) you replace by marsdev repository directory
+$ export MARS_INSTALL_DIR="/opt/toolchains/mars"
+$ make m68k-toolchain
+$ make sgdk
+$ make sik-tools
+$ make flamewing-tools
+$ sudo make install
+```
+
+That's it!
+
+To be precious, additionally I installed extra packages from these Sony's toolchains by entering `./build-extra.sh` command in their directory after building all. It provides some additional tools.
 
 Why I need many toolchains? I don't know. I just wanted to make some experiments with my own homebrews. Actually I have plans to release homebrew for PSP. For rest consoles (like PS2, GBA, Wii) I will do some homebrews in nearly future, as I have some ideas in my brain.
+
+Because I will have real SEGA Mega Drive (not clone nor box with emulator) so I have plan to do something for it too!
 
 ## 💻 Scripts
 
