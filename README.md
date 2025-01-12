@@ -66,7 +66,7 @@ If you don't need these additional content provided below, you can just uncommen
 
 ### 📦 Toolchains
 
-My dotfiles (state as of beginning of January 2025) use some toolchains, primary for developing homebrews for Sony (PSP and PS2) and Nintendo (devkitPro) consoles.
+My dotfiles (state as of beginning of January 2025) use some toolchains, primary for developing homebrews for Sony (PSP and PS2), Nintendo (devkitPro) and SEGA (marsdev) consoles.
 
 To use all of them, you must have [pspdev](https://github.com/pspdev/pspdev) (PSP toolchain), [ps2dev](https://github.com/ps2dev/ps2dev) (PS2 toolchain), devkitPro (Toolchain for various Nintendo consoles) and [marsdev](https://github.com/andwn/marsdev) (Toolchain for SEGA Mega Drive/Genesis) installed.
 
