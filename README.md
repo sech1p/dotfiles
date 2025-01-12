@@ -60,6 +60,12 @@ You no more need to manually copy dotfiles to repository on update. (repository 
 
 ## 📦 Additional content
 
+### ⚠️ Notice
+
+If you don't need these additional content provided below, you can just uncommenting their reference from `.zshrc` file.
+
+### 📦 Toolchains
+
 My dotfiles (state as of beginning of January 2025) use some toolchains, primary for developing homebrews for Sony (PSP and PS2) and Nintendo (devkitPro) consoles.
 
 To use all of them, you must have [pspdev](https://github.com/pspdev/pspdev) (PSP toolchain), [ps2dev](https://github.com/ps2dev/ps2dev) (PS2 toolchain), devkitPro (Toolchain for various Nintendo consoles) and [marsdev](https://github.com/andwn/marsdev) (Toolchain for SEGA Mega Drive/Genesis) installed.
