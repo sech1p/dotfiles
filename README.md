@@ -92,6 +92,43 @@ Why I need many toolchains? I don't know. I just wanted to make some experiments
 
 Because I will have real SEGA Mega Drive (not clone nor box with emulator) so I have plan to do something for it too!
 
+### 📦 Devices configs
+
+My dotfiles contains too configs for my devices.
+
+#### 🎮 Racing Wheel
+
+[99-wheel.conf](etc/X11/xorg.conf.d/99-wheel.conf) is responsible for Xinput support for my racing wheel (Saitek R100).
+
+If you wanna use it with your wheel, just change a name of `Identifier` and `MatchDevicePath`, because your device path may be different on your configuration.
+
+#### 🎮 osu! Keypad
+
+[mapping.yaml](.config/ch57x/mapping.yaml) in `.config/ch57x` is a mapping for my osu keypad based on ch57x chip which I bought from China.
+
+This mapping requires that's you have 3-columns keys and one knob. I use [this keypad](https://aliexpress.com/item/1005006594445739.html).
+
+Otherwise, you can modify mapping whatever you want.
+
+To use mapping for you cheap keypad, you must use tool named [ch57x-keyboard-tool](https://github.com/kriomant/ch57x-keyboard-tool). To program on your keypad mapping from config, type below commands:
+
+```bash
+$ ./ch57x-keyboard-tool validate < .config/ch57x/mapping.yaml
+$ ./ch57x-keyboard-tool upload < .config/ch57x/mapping.yaml
+```
+
+Now, you programmed your keypad, enjoy!
+
+To keep stable position of keypad on your desk, I recommend mount it with double sided tape.
+
+#### 📱 Graphics tablet
+
+I have a graphics tablet - Wacom Bamboo (MTE-450A), released in late-2007. It's old, but still rocks!
+
+I use this tablet for drawing graphics and for playing in osu!
+
+To deal with this tablet, I use [OpenTabletDriver](https://opentabletdriver.net). To load settings, open OpenTabletDriver application, press `File` from menu bar and in context menu press `Load settings...`, then select `.config/wacom/tablet.json` file and load it.
+
 ## 💻 Scripts
 
 All my scripts (which sometimes helps me on my daily work) with their proper description and usage of them, are located in [.local/bin](.local/bin/) directory.
