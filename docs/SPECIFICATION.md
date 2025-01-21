@@ -1,7 +1,7 @@
 # 🖥️ Specification
 
 * **Motherboard** - [ASRock H310CM-DVS](https://www.asrock.com/mb/Intel/H310CM-DVS/index.asp)
-* **Processor** - [Intel Celeron G4930](https://www.intel.com/content/www/us/en/products/sku/134878/intel-celeron-processor-g4930-2m-cache-3-20-ghz/specifications.html) (3.20 GHz)
+* **Processor** - [Intel Core i5-9600KF](https://www.intel.com/content/www/us/en/products/sku/190884/intel-core-i59600kf-processor-9m-cache-up-to-4-60-ghz/specifications.html) (3.70 GHz)
 * **Graphics** - [MSI GeForce GTX 1050 Ti GAMING](https://www.msi.com/Graphics-Card/GeForce-GTX-1050-Ti-GAMING-X-4G/support) (4 GB)
 * **Graphics driver**: [NVidia](https://www.nvidia.com) [565.77](https://www.nvidia.com/en-us/drivers/details/237587/) (proprietary)
 * **Memory** - 1x[8 GB GoodRam](https://www.x-kom.pl/p/419244-pamiec-ram-ddr4-goodram-8gb-1x8gb-2666mhz-cl19.html) DDR4
