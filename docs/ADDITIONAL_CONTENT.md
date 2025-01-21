@@ -68,3 +68,9 @@ I have a graphics tablet - Wacom Bamboo (MTE-450A), released in late-2007. It's 
 I use this tablet for drawing graphics and for playing in osu!
 
 To deal with this tablet, I use [OpenTabletDriver](https://opentabletdriver.net). To load settings, open OpenTabletDriver application, press `File` from menu bar and in context menu press `Load settings...`, then select `.config/wacom/tablet.json` file and load it.
+
+### 🎮 Gamepad
+
+As gamepad I use [PDP Purple Fade REMATCH Controller](https://pdp.com/products/xbox-series-x-s-pc-purple-fade-rematch-controller), which is dedicated for Xbox's and computers.
+
+This gamepad after plugging is recognized as `Microsoft X-Box 360 pad 0`. So, no tweaks needed here.
