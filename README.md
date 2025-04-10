@@ -1,6 +1,12 @@
 <p align="center">
 
-# 🖥️ sech1p's dotfiles
+# ⚠️ Important
+
+This repo is no longer updated, due migration to Windows 11 caused by fatal Arch Linux update - which broken the whole distribution, making it unsuable.
+
+Actually, I use some of my dotfiles legacy in Windows Subsystem for Linux and Windows itself. (e.g. Visual Studio Code extensions, and .zshrc)
+
+## 🖥️ sech1p's dotfiles
 
 Dotfiles of my setups
 
